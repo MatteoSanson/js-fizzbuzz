@@ -19,4 +19,4 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un ele
 1) aggiungo un elemento \<ul> all'interno del file index.html e una variabile in js.
 2) creo in js l'elemento \<li> con le sue variabili e cosa deve contenere.
 3) nelle condizioni stabilite dall'esercizio precedente dico cosa "stampare" in html.
-4) \<li> e il loro contenuto fanno parte del codice html.
+4) tramite js inserisco l'elemento \<li> e il suo contenuto come figlio di \<ul> all'interno del codice html.
