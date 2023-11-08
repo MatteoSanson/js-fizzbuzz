@@ -10,7 +10,7 @@ Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i mult
 - se è multiplo di 5 stampo Buzz.
 - se è multipo di 3 stampo Fizz.
 - altrimenti stampo la mia variabile ciclo.
-
+<br>
 
 ## BONUS 1
 Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
@@ -20,10 +20,10 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un ele
 2) creo in js l'elemento \<li> con le sue variabili e cosa deve contenere.
 3) nelle condizioni stabilite dall'esercizio precedente dico cosa "stampare" in html.
 4) tramite js inserisco l'elemento \<li> e il suo contenuto come figlio di \<ul> all'interno del codice html.
-
+<br>
 
 ## BONUS 2
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 
-### Svolgimento
+### Svolgimento Bonus2
 Nel mio foglio style.css creo delle classi personalizzate, successivamente tramite js le aggiungo nel codice html in base alle condizioni stabilite con gli IF e all'interno del mio ciclo FOR. 
