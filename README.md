@@ -20,3 +20,10 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un ele
 2) creo in js l'elemento \<li> con le sue variabili e cosa deve contenere.
 3) nelle condizioni stabilite dall'esercizio precedente dico cosa "stampare" in html.
 4) tramite js inserisco l'elemento \<li> e il suo contenuto come figlio di \<ul> all'interno del codice html.
+
+
+## BONUS 2
+Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+### Svolgimento
+Nel mio foglio style.css creo delle classi personalizzate, successivamente tramite js le aggiungo nel codice html in base alle condizioni stabilite con gli IF e all'interno del mio ciclo FOR. 

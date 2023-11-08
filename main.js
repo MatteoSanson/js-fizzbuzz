@@ -19,16 +19,22 @@ for (let i=contatoreInizio; i<= contatoreFine; i++){
         console.log('FizzBuzz');
         // bonus1 3) 
         listText = 'FizzBuzz';
+        // bonus2 
+        elementLi.classList.add('fizzBuzz');
     // se è multiplo di 5 stampo Buzz. 
     } else if (i % 5 === 0){
         console.log('Buzz');
         // bonus1 3) 
         listText = 'Buzz';
+        // bonus2 
+        elementLi.classList.add('buzz');
     // se è multiplo di 3 stampo Fizz.
     } else if (i % 3 === 0){
         console.log('Fizz');
         // bonus1 3) 
         listText = 'Fizz';
+        // bonus2 
+        elementLi.classList.add('fizz');
     // altrimenti stampo la mia variabile ciclo. 
     } else {
         console.log(i);
@@ -39,5 +45,7 @@ for (let i=contatoreInizio; i<= contatoreFine; i++){
     // bonu1 4) 
     elementLi.textContent = listText;
     elementUl.append(elementLi);
-}
 
+    // bonus2 
+    elementLi.classList.add('mioBox');
+}
